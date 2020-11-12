@@ -1,0 +1,20 @@
+/*reglas
+selectores
+declaraciones
+propiedades
+valores*/
+
+/*Selector de etiqueta header - section -article -nav*/
+header {
+    background: #094275;
+    color: #f0d5c0
+}
+
+/*Selector descendente */
+/*body header div nav ol li a*/
+
+/*selector de clase*/ /*Es laa forma más popular de poner estilos*/
+/*.<nombre de la clase class="link" por ejemplo>
+
+/**selector de id #/
+/*#<nombre del id> #background */
