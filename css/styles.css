@@ -5,16 +5,51 @@ propiedades
 valores*/
 
 /*Selector de etiqueta header - section -article -nav*/
-header {
-    background: #094275;
-    color: #f0d5c0
-}
+/*header {
+/*    background: #094275;
+/*    color: #f0d5c0
+/*}
 
 /*Selector descendente */
 /*body header div nav ol li a*/
 
 /*selector de clase*/ /*Es laa forma más popular de poner estilos*/
-/*.<nombre de la clase class="link" por ejemplo>
+/*<nombre de la clase class="link" por ejemplo>
 
 /**selector de id #/
 /*#<nombre del id> #background */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    /*font-style: italic;*/
+    letter-spacing: -0.2px;
+    /*text-transform: lowercase*/
+    /*text-decoration: dotted;*/
+}
+
+h1{
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project_imageWrapper {
+    width: 500px;
+}
+
+.hero{
+    height: 300px;
+}

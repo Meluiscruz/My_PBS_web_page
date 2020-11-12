@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola, soy Luis Cruz</title>
     <link rel="icon" type="Image/jpg" href="./images/logo/favicon.jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -35,39 +37,45 @@
         <h1>
             ¡Hola! Soy <strong>Luis Cruz</strong>, ingeniero mecánico <br/>y desarrollador <strong>Python</strong> con <br/> pasión por la <strong>ciencia de datos</strong>.
         </h1>
-        <img src="images/hero/big-13 .jpg" width="500" alt="Imagen principal del sitio"/>
+        <!--img src="images/hero/big-13 .jpg" width="500" alt="Imagen principal del sitio"/> -->
     </section>
     <section id="portfolio" class="portfolio">
         <h2>Portafolio de proyectos destacados</h2>
         <article class="project">
-            <h3 class="project_title">Certificación de seguridad de sillón reclinable eléctrico.</h3>
-            <h6 class="project_stack">Normas de seguridad UL962 / CAN/CSA-C22.2 No. 68 </h6>
-            <p class="project_date"><small><strong>Fecha: </strong>Agosto 28, 2019</small></p>
-            <p class="project_status"><small><strong>Puedes verificar el estado de la certificación en el siguiente <a href="https://ramuk.intertekconnect.com//WebClients/ITS/DLP/products.nsf/vwSearch?SearchView&Query=FIELD%20ListHead%20contains%20salotto&SearchOrder=1&SearchMax=1000&SearchWV=FALSE&SearchThesaurus=FALSE&SearchFuzzy=FALSE" target="_blank" >link</a></strong></small></p>
-            <p class="project_media"><small><strong>Puedes ver el video de una de las pruebas en el siguiente <a href="https://www.youtube.com/watch?v=Hw_q1Hjkuxo" target="_blank">link</a></strong></small></p>
-            <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <div class="project-details">
+                <h3 class="project_title">Certificación de seguridad de sillón reclinable eléctrico.</h3>
+                <h6 class="project_stack">Normas de seguridad UL962 / CAN/CSA-C22.2 No. 68 </h6>
+                <p class="project_date"><small><strong>Fecha: </strong>Agosto 28, 2019</small></p>
+                <p class="project_status"><small><strong>Puedes verificar el estado de la certificación en el siguiente <a href="https://ramuk.intertekconnect.com//WebClients/ITS/DLP/products.nsf/vwSearch?SearchView&Query=FIELD%20ListHead%20contains%20salotto&SearchOrder=1&SearchMax=1000&SearchWV=FALSE&SearchThesaurus=FALSE&SearchFuzzy=FALSE" target="_blank" >link</a></strong></small></p>
+                <p class="project_media"><small><strong>Puedes ver el video de una de las pruebas en el siguiente <a href="https://www.youtube.com/watch?v=Hw_q1Hjkuxo" target="_blank">link</a></strong></small></p>
+                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
                Pellentesque faucibus tellus ut eros posuere pretium. 
-               Etiam aliquam orci eu tellus.</p>   
-            <figure class="project_image_Wrapper">
+               Etiam aliquam orci eu tellus.</p> 
+            </div>  
+            <figure class="project_imageWrapper">
                 <img class="project_image" src="./images/Highlights/recliner.jpg" alt="sillón_reclinable" width="500"/>
             </figure>
         </article>
     </section>
-    <section id="background">
+    <section id="background" class="baggage">
         <h2>Más sobre mi experiencia</h2>
-        <article class="Bckgnd">
-            <h3>Web Scraper / Consumo de la API de Mercado Libre (Mx y Br)</h3>
+        <article class="bckgnd">
+            <h3 class="bckgnd_project_title">Web Scraper / Consumo de la API de Mercado Libre (Mx y Br)</h3>
+            <h6 class="bckgnd_stack">Python para Extracción y Transformación, MySQL para carga </h6>
+            <p class="bckgnd_date"><small><strong>Fecha: </strong>Septiembre 09, 2020</small></p>
+            <p class="bckgnd_status"><small><strong>Puedes verificar el repositorio del proyecto en el siguiente <a href="" target="_blank" >link</a></strong></small></p>
+            <p class="bckgnd_media"><small><strong>Puedes ver el video de la presentación <a href="https://www.youtube.com/watch?v=lLWEXRAnQd0" target="_blank"> aqui </a></strong></small></p>
             <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
                 Pellentesque faucibus tellus ut eros posuere pretium. 
                 Etiam aliquam orci eu tellus.</p>
-            <figure class="Bckgnd_image_Wrapper">
-                    <img src="" alt=""/>
+            <figure class="Bckgnd_imageWrapper">
+                    <img src="./images/Highlights/UpData.jpg" alt="Flujo_ETL" width="500"/>
             </figure>
         </article> 
     </section>
-    <section id="smedia">
+    <section id="smedia" class="social_media">
         <h2>Mis redes sociales</h2>
         <article>
             <figure>
@@ -81,13 +89,13 @@
                 <a>Ir a mi Linkedin</a>
         </article> 
     </section>
-    <section id="contact">
-        <form action="/suscripcion/"> <!--Información de destino del formulario-->
+    <section id="contact" class="contact">
+        <form action="/suscripcion/" class="form-email"> <!--Información de destino del formulario-->
             <h3>¡Ve hasta el final!</h3>
             <input type="text" placeholder="Déjame tu e-mail" id="email">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>Footer</footer>
+    <footer class="footer">Footer</footer>
 </body>
 </html>
