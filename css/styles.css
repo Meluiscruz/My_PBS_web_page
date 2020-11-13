@@ -82,14 +82,17 @@ h1 strong{
 
 .project-details {
     width: 500px;
+    display: inline-block;
 }
 
 .project_imageWrapper {
     width: 500px;
+    display: inline-block;
 }
 
 .hero{
-    height: 300px;
+    padding:15px;
+    height: 285px;
     background-image: url('../images/hero/small-13.jpg');
     background-color: #3e5f8a;
     background-size: 300px 316px;
