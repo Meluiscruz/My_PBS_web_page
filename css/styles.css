@@ -19,19 +19,23 @@ valores*/
 /**selector de id #/
 /*#<nombre del id> #background */
 
+/*background = #9c9c9c*/
+/*logo = #3e5f8a*/
+/*slogan = #f8f32b*/
+/*main = #474b4e*/
+
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat','Roboto' sans-serif;
     font-weight: normal;
-    /*font-style: italic;*/
     letter-spacing: -0.2px;
     /*text-transform: lowercase*/
     /*text-decoration: dotted;*/
@@ -40,6 +44,40 @@ h6{
 h1{
     font-size: 40px;
     line-height: 150%;
+    font-weight: bold;
+   /*margin: top right bottom left;*/
+}
+
+h1 strong{
+    color: whitesmoke;
+}
+
+.header{
+    background-color: #9c9c9c;
+    color: #f8f32b;
+}
+
+.header a{
+    color: #f8f32b;
+    text-decoration: none;
+}
+
+.Star_projects{
+    background: #9c9c9c ;
+}
+
+.Star_title{
+    color:#f8f32b;
+    font-weight: bold;
+}
+
+.project{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: whitesmoke;
 }
 
 .project-details {
@@ -52,4 +90,11 @@ h1{
 
 .hero{
     height: 300px;
+    background-image: url('../images/hero/small-13.jpg');
+    background-color: #3e5f8a;
+    background-size: 300px 316px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color: #f8f32b;
 }
+
