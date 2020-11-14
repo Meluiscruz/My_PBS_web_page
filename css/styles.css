@@ -29,6 +29,17 @@ body{
     margin: 0px;
 }
 
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
 h2,
 h3,
 h4,
@@ -44,7 +55,9 @@ h6{
 h1{
     font-size: 40px;
     line-height: 150%;
+    letter-spacing: -0.2px;
     font-weight: bold;
+    margin: 0;
    /*margin: top right bottom left;*/
 }
 
@@ -52,14 +65,42 @@ h1 strong{
     color: whitesmoke;
 }
 
+.logo{
+    height: inherit;
+    align-items: center;
+    
+}
+
 .header{
     background-color: #9c9c9c;
     color: #f8f32b;
+    display: flex;
+    justify-content: space-between;
+    height:70px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.main_menu { /* .menu hereda de .header */
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
 }
 
 .header a{
     color: #f8f32b;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .Star_projects{
@@ -80,14 +121,16 @@ h1 strong{
     background: whitesmoke;
 }
 
+.project_cont{
+    display: flex;
+}
+
 .project-details {
     width: 500px;
-    display: inline-block;
 }
 
 .project_imageWrapper {
     width: 500px;
-    display: inline-block;
 }
 
 .hero{
@@ -95,9 +138,18 @@ h1 strong{
     height: 285px;
     background-image: url('../images/hero/small-13.jpg');
     background-color: #3e5f8a;
-    background-size: 300px 316px;
+    background-size: 285px 316px;
     background-repeat: no-repeat;
     background-position-x: right;
     color: #f8f32b;
+    display: flex;
+    align-items: center;
 }
 
+.footer{
+    background-color:#3e5f8a;
+    color: #f8f32b;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
