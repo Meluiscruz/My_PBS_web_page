@@ -28,71 +28,125 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     background-color: #3e5f8a;
-}
+} /*Verificado*/
 
-ol,
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-figure{
-    margin: 0;
-}
-
+h1,
 h2,
 h3,
 h4,
 h5,
 h6{
     font-family: 'Montserrat','Roboto' sans-serif;
-    letter-spacing: -0.2px;
+    font-weight: normal;
     /*text-transform: lowercase*/
     /*text-decoration: dotted;*/
-}
+} /*Verificado*/
 
 h1{
     font-size: 40px;
     line-height: 150%;
-    letter-spacing: -0.2px;
+    letter-spacing: -.2px;
     font-weight: bold;
     margin: 0;
    /*margin: top right bottom left;*/
-}
+} /*Verificado*/
 
 h1 strong{
     color: whitesmoke;
-}
+} /*Verificado*/
+
+h2 {
+    color: #474b4e;
+    /*text-transform: uppercase;*/
+    font-family: 'Montserrat','Roboto' sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    /*margin-bottom: 40px;*/
+} /*Verificado*/
+
+.hero{
+    height: 300
+    px;
+    /*background-image: url('../images/hero/small-13.jpg');*/
+    background-color: #3e5f8a;
+    /*background-size: 285px 316px;*/
+    /*background-repeat: no-repeat;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f8f32b;
+} /*Verificado*/
+
+.portfolio{
+    background: #9c9c9c ;
+    /*padding: 20px;*/
+} /*Verificado*/
+
+.project{
+    border: 1px;
+    border-radius: 10px;
+    /*margin: 10px;*/
+    margin-bottom: 15px;
+    padding: 20px;
+    background: rgb(175, 156, 156);
+    color: #474b4e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}/*Verificado*/
+
+.project_stack,
+.project_date,
+.project_media{
+    margin: 10px 0;
+}/*Verificado*/
+
+.project_description{
+    font-size: 20px;
+}/*Verificado*/
+
+.project strong{
+    font-family: 'Montserrat','Roboto' sans-serif;
+}/*Verificado*/
+
+.project_title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}/*Verificado*/
+
+.project-details {
+    width: 500px;
+}/*Verificado*/
+
+.project_imageWrapper {
+    width: 500px;
+}/*Verificado*/
 
 .logo{
     height: inherit;
     align-items: center;
-    
-}
+}/*Verificado*/
 
 .header{
     background-color: #9c9c9c;
     color: #f8f32b;
     display: flex;
-    justify-content: space-between;
     height:70px;
     align-items: center;
-    padding-left: 15px;
-}
+    justify-content: space-between;
+}/*Verificado*/
 
-.main_menu { /* .menu hereda de .header */
-    height: inherit;
-}
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}/*Verificado*/
 
-.header ol {
-    display: flex;
-    height: inherit;
-}
-
-.header ol li {
-    height: inherit;
-}
+figure{
+    margin: 0;
+}/*Verificado*/
 
 .header a{
     color: #474b4e;
@@ -101,104 +155,48 @@ h1 strong{
     display: flex;
     align-items: center;
     padding: 0 10px;
-}
+}/*Verificado*/
 
-.hero{
-    padding:15px;
-    height: 285px;
-    /*background-image: url('../images/hero/small-13.jpg');*/
-    background-color: #3e5f8a;
-    /*background-size: 285px 316px;*/
-    /*background-repeat: no-repeat;*/
-    background-position-x: right;
-    justify-content: space-between;
+.main_menu { /* .menu hereda de .header */
+    height: inherit;
+}/*Verificado*/
+
+.header ol {
+    display: flex;
+    height: inherit;
+}/*Verificado*/
+
+.header ol li {
+    height: inherit;
+}/*Verificado*/
+
+.footer{
     color: #f8f32b;
-    display: flex;
-    align-items: center;
-}
-
-.hero_image{
-    object-fit: cover;
-}
-
-.Star_projects{
-    background: #9c9c9c ;
-    padding: 20px;
-    margin-bottom: 10px;
-    align-items: center;
-}
-
-.Star_title{
-    color:#474b4e;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.project{
-    border: 1px solid black;
-    border-radius: 10px;
-    /*margin: 10px;*/
-    margin-bottom: 15px;
-    padding: 20px;
-    background: whitesmoke;
-}
-
-.project_title{
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.project_stack{
-    margin: 10px 0;
-}
-
-.project_date{
-    margin: 10px 0;
-}
-
-.project_media{
-    margin: 10px 0;
-}
-
-.project_desc{
-    font-size: 20px;
-}
-
-.project strong{
-    font-family: 'Montserrat','Roboto' sans-serif;
-}
-
-.project_cont{
+    background-color:#3e5f8a;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+}/*Verificado*/
 
-.project-details {
-    width: 500px;
-}
-
-.project_imageWrapper {
-
-    width: 500px;
-}
-
-.Curriculum{
+.event_list{
     display: flex;
-    background-color: #3e5f8a;
-    align-items: center;
     flex-wrap: wrap;
-}
+}/*Verificado*/
 
 .CV_Title{
     color:#f8f32b;
     font-weight: bold;
     font-size: 24px;
-    margin-left: 10px;
-}
+    margin-left: 20px;
+}/*Verificado*/
 
-.bckgnd{
+.Star_title{
+    color:#474b4e;
+    font-weight: bold;
+    font-size: 24px;
+}/*Verificado*/
+
+.event{
     /*border: 1px solid red;*/
     margin: 10px;
     width: 480px;
@@ -206,29 +204,41 @@ h1 strong{
     border-radius: 10px;
     overflow: hidden;
     background-color: #3e5f8a;
-    
-}
+}/*Verificado*/
 
-.bckgnd img{
+.event img{
     width: 480px;
     height: 200px;
     object-fit: cover;
-}
+}/*Verificado*/
 
-.bckgnd_wrap{
-    margin: 20px 40px;
+.event_detail {
+    margin: 5px 40px;
     margin-top: -40px;
     background-color: #2e5f8a;
     color: #f8f32b;
     position: relative;
-    padding: 10px;
+    padding: 5px 20px;
     text-align: center;
-    
-}
+}/*Verificado*/
 
-.bckgnd_desc{
+.project_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}/*Verificado*/
+
+.event_description{
     text-align: left;
-}
+}/*Verificado*/
+
+/*.event-url {
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}*/
 
 .contact{
     background-color: #9c9c9c;
@@ -237,7 +247,11 @@ h1 strong{
     display:flex;
     align-items: center;
     justify-content: space-between;
-}
+}/*Verificado*/
+
+.project-details {
+    width: 500px;
+}/*Verificado*/
 
 /*.social{
     border: 1px solid red;
@@ -249,7 +263,7 @@ h1 strong{
     padding: 5px 15px 2px;
     font-size: 27px;
     margin-bottom: 15px;
-}
+}/*Verificado*/
 
 .social_link{
     display: inline-block;
@@ -257,42 +271,42 @@ h1 strong{
     height: 50px;
     background-size: 50px 50px;
     margin: 0 10px;
-}
+}/*Verificado*/
 
 .social_link.TW{
     background-image: url('../images/icons/contact/003-gorjeo.svg');
     background-size: 50px 50px;
     border-radius: 5px;
     background-color: white;
-}
+}/*Verificado*/
 
 .social_link.FB{
     background-image: url('../images/icons/contact/001-facebook.svg');
     background-size: 50px 50px;
     border-radius: 10px;
     background-color: white;
-}
+}/*Verificado*/
 
 .social_link.GH{
     background-image: url('../images/icons/contact/005-github.svg');
     background-size: 50px 50px;
     border-radius: 25px;
     background-color: white;
-}
+}/*Verificado*/
 
 .social_link.LK{
     background-image: url('../images/icons/contact/004-linkedin.svg');
     background-size: 50px 50px;
     border-radius: 5px;
     background-color: white;
-}
+}/*Verificado*/
 
 .social_link.IG{
     background-image: url('../images/icons/contact/002-instagram.svg');
     background-size: 50px 50px;
     border-radius: 15px;
     background-color: white;
-}
+}/*Verificado*/
 
 .form-email input{
     border-color: #3e5f8a;
@@ -303,29 +317,22 @@ h1 strong{
     background-position-y: center;
     background-position-x: 5px;
     margin-left: 15px;
-}
+}/*Verificado*/
 
 .form-email button{
     margin-left: 10px;
     background-color: #2e5f8a;
     color: #f8f32b;
     padding: 5px 30px;
-}
+}/*Verificado*/
 
-.footer{
-    background-color:#3e5f8a;
-    color: #f8f32b;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.Container{
-    border: 1px solid red;
+.container{
+    /*border: 1px solid red;*/
     width: 1000px;
-    margin: 0, auto;
-    display:inherit;
+    margin: 0 auto;
+    display: inherit;
     justify-content: inherit;
     height: inherit;
     align-items: inherit;
     flex-wrap: inherit;
+}/*Verificado*/
