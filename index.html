@@ -11,47 +11,66 @@
 </head>
 <body>
     <header class="header">
-        <figure class="logo">
-            <img src="./images/logo/main_logo.jpg" alt = "logo de http://meluiscruz.com" width="270" height="70" /> <!--Logotipo de mi PBS-->
-        </figure>
-        <nav class="main_menu">
-            <ol>
-                <li>
-                    <a class ="link" href="./portfolio/es/index.html">Portafolio</a>
-                </li>
-                <li>
-                    <a class ="link" href="#cvitae">Experiencia</a>
-                </li>
-                <li>
-                    <a class ="link" href="#smedia">Mis redes sociales</a>
-                </li>
-                <li>
-                    <a class ="link" href="#contact">¡Ve hasta el final!</a>
-                </li>
-            </ol>
-        </nav>
+        <div class="container">
+            <figure class="logo">
+                <img src="./images/logo/main_logo.jpg" alt = "logo de http://meluiscruz.com" width="270" height="70" /> <!--Logotipo de mi PBS-->
+            </figure>
+            <nav class="main_menu">
+                <ol>
+                    <li>
+                        <a class ="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class ="link" href="#cvitae">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class ="link" href="#contacto">¡Ve hasta el final!</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </header>
     <section class ="hero">
-        <h1>
-            ¡Hola! Soy <strong>Luis Cruz</strong>, ingeniero mecánico <br/>y desarrollador <strong>Python</strong> con <br/> pasión por la <strong>ciencia de datos</strong>.
-        </h1>
-        <!--img src="images/hero/big-13 .jpg" width="500" alt="Imagen principal del sitio"/> -->
+        <div class="container">
+            <h1>
+                ¡Hola! Soy <strong>Luis Cruz</strong>, ingeniero mecánico <br/>y desarrollador <strong>Python</strong> con <br/> pasión por la <strong>ciencia de datos</strong>.
+            </h1>
+            <img class="hero_image" src="images/hero/small-13.jpg" width="285" height="316" alt="Imagen principal del sitio"/>
+        </div>
     </section>
-    <section id="portfolio" class="Star_projects">
-        <h2 class="Star_title">Portafolio de proyectos destacados</h2>
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2 class="portfolio_title">Portafolio (proyectos destacados)</h2>
+        <article class="project">
+            <div class="project_details">
+                <h3 class="project_title">Web Scraper / Consumo de la API de Mercado Libre (Mx y Br).</h3>
+                <h6 class="project_stack">Python para extracción y transformación, MySQL para carga de datos.</h6>
+                <p class="project_date"><small><strong>Fecha: </strong>septiembre 09, 2020</small></p>
+                <p class="project_status"><small><strong>Puedes verificar el repositorio del proyecto en el siguiente <a href="" target="_blank" >link</a></strong></small></p>
+                <p class="project_media"><small><strong>Puedes ver el video de la presentación haciendo click en este <a href="https://www.youtube.com/watch?v=lLWEXRAnQd0" target="_blank"> link </a></strong></small></p>
+                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
+                   Pellentesque faucibus tellus ut eros posuere pretium. 
+                   Etiam aliquam orci eu tellus.</p>   
+            </div>
+            <figure class="project_imageWrapper">
+                <img src="./images/Highlights/UpData.jpg" alt="Flujo_ETL" width="500"/>
+            </figure>
+        </article>
+        </section>
         <section id="portfolio" class="project">
             <article class="project_cont">
                 <div class="project-details">
                     <h3 class="project_title">Certificación de seguridad de sillón reclinable eléctrico.</h3>
                     <h6 class="project_stack">Normas de seguridad UL962 / CAN/CSA-C22.2 No. 68 </h6>
-                    <p class="project_date"><small><strong>Fecha: </strong>Agosto 28, 2019</small></p>
+                    <p class="project_date"><small><strong>Fecha: </strong>agosto 28, 2019</small></p>
                     <p class="project_status"><small><strong>Puedes verificar el estado de la certificación en el siguiente <a href="https://ramuk.intertekconnect.com//WebClients/ITS/DLP/products.nsf/vwSearch?SearchView&Query=FIELD%20ListHead%20contains%20salotto&SearchOrder=1&SearchMax=1000&SearchWV=FALSE&SearchThesaurus=FALSE&SearchFuzzy=FALSE" target="_blank" >link</a></strong></small></p>
                     <p class="project_media"><small><strong>Puedes ver el video de una de las pruebas en el siguiente <a href="https://www.youtube.com/watch?v=Hw_q1Hjkuxo" target="_blank">link</a></strong></small></p>
                     <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                   Etiam aliquam orci eu tellus.</p> 
-                </div>  
+                   Etiam aliquam orci eu tellus.</p>   
+                </div>
                 <figure class="project_imageWrapper">
                     <img class="project_image" src="./images/Highlights/recliner.jpg" alt="sillón_reclinable" width="500"/>
                 </figure>
@@ -68,147 +87,113 @@
                     <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                   Etiam aliquam orci eu tellus.</p> 
-                </div>  
+                   Etiam aliquam orci eu tellus.</p>   
+                </div>
                 <figure class="project_imageWrapper">
                     <img class="project_image" src="./images/Highlights/recliner.jpg" alt="sillón_reclinable" width="500"/>
                 </figure>
             </article>
         </section>
-        <section id="portfolio" class="project">
-            <article class="project_cont">
-                <div class="project-details">
-                    <h3 class="project_title">Certificación de seguridad de sillón reclinable eléctrico.</h3>
-                    <h6 class="project_stack">Normas de seguridad UL962 / CAN/CSA-C22.2 No. 68 </h6>
-                    <p class="project_date"><small><strong>Fecha: </strong>Agosto 28, 2019</small></p>
-                    <p class="project_status"><small><strong>Puedes verificar el estado de la certificación en el siguiente <a href="https://ramuk.intertekconnect.com//WebClients/ITS/DLP/products.nsf/vwSearch?SearchView&Query=FIELD%20ListHead%20contains%20salotto&SearchOrder=1&SearchMax=1000&SearchWV=FALSE&SearchThesaurus=FALSE&SearchFuzzy=FALSE" target="_blank" >link</a></strong></small></p>
-                    <p class="project_media"><small><strong>Puedes ver el video de una de las pruebas en el siguiente <a href="https://www.youtube.com/watch?v=Hw_q1Hjkuxo" target="_blank">link</a></strong></small></p>
-                    <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                   Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
-                   Pellentesque faucibus tellus ut eros posuere pretium. 
-                   Etiam aliquam orci eu tellus.</p> 
-                </div>  
-                <figure class="project_imageWrapper">
-                    <img class="project_image" src="./images/Highlights/recliner.jpg" alt="sillón_reclinable" width="500"/>
-                </figure>
-            </article>
-        </section>
+        </div>
     </section>
+    <div class="Container">
+        <h2 class="CV_Title">Más sobre mi experiencia</h2>
+    </div>
     <section id="cvitae" class="Curriculum">
-        <h2>Más sobre mi experiencia</h2>
-        <section id="baggage" class="baggage">
-            <article class="bckgnd">
-                <h3 class="bckgnd_project_title">Web Scraper / Consumo de la API de Mercado Libre (Mx y Br)</h3>
-                <h6 class="bckgnd_stack">Python para Extracción y Transformación, MySQL para carga </h6>
-                <p class="bckgnd_date"><small><strong>Fecha: </strong>Septiembre 09, 2020</small></p>
-                <p class="bckgnd_status"><small><strong>Puedes verificar el repositorio del proyecto en el siguiente <a href="" target="_blank" >link</a></strong></small></p>
-                <p class="bckgnd_media"><small><strong>Puedes ver el video de la presentación <a href="https://www.youtube.com/watch?v=lLWEXRAnQd0" target="_blank"> aqui </a></strong></small></p>
-                <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
-                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                    Etiam aliquam orci eu tellus.</p>
-                <figure class="Bckgnd_imageWrapper">
+        <div class="Container"> 
+            <section id="baggage" class="baggage">
+                <article class="bckgnd">
+                    <figure class="Bckgnd_imageWrapper">
                         <img src="./images/Highlights/UpData.jpg" alt="Flujo_ETL" width="500"/>
-                </figure>
-            </article> 
-        </section>
-        <section id="baggage" class="baggage">
-            <article class="bckgnd">
-                <h3 class="bckgnd_project_title">Web Scraper / Consumo de la API de Mercado Libre (Mx y Br)</h3>
-                <h6 class="bckgnd_stack">Python para Extracción y Transformación, MySQL para carga </h6>
-                <p class="bckgnd_date"><small><strong>Fecha: </strong>Septiembre 09, 2020</small></p>
-                <p class="bckgnd_status"><small><strong>Puedes verificar el repositorio del proyecto en el siguiente <a href="" target="_blank" >link</a></strong></small></p>
-                <p class="bckgnd_media"><small><strong>Puedes ver el video de la presentación <a href="https://www.youtube.com/watch?v=lLWEXRAnQd0" target="_blank"> aqui </a></strong></small></p>
-                <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
-                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                    Etiam aliquam orci eu tellus.</p>
-                <figure class="Bckgnd_imageWrapper">
+                    </figure>
+                    <div class="bckgnd_wrap">
+                        <h3 class="bckgnd_title">Ingeniero de proyectos (freelance).</h3>
+                        <h6 class="bckgnd_subtitle">IT Engineer / Software Developer. </h6>
+                        <p class="bckgnd_period"><small><strong>Periodo: </strong>junio 5, 2020 - actualidad.</small></p>
+                        <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
+                            Pellentesque faucibus tellus ut eros posuere pretium. 
+                            Etiam aliquam orci eu tellus.</p>
+                    </div>
+                </article> 
+            </section>
+            <section id="baggage" class="baggage">
+                <article class="bckgnd">
+                    <figure class="Bckgnd_imageWrapper">
                         <img src="./images/Highlights/UpData.jpg" alt="Flujo_ETL" width="500"/>
-                </figure>
-            </article> 
-        </section>
-        <section id="baggage" class="baggage">
-            <article class="bckgnd">
-                <h3 class="bckgnd_project_title">Web Scraper / Consumo de la API de Mercado Libre (Mx y Br)</h3>
-                <h6 class="bckgnd_stack">Python para Extracción y Transformación, MySQL para carga </h6>
-                <p class="bckgnd_date"><small><strong>Fecha: </strong>Septiembre 09, 2020</small></p>
-                <p class="bckgnd_status"><small><strong>Puedes verificar el repositorio del proyecto en el siguiente <a href="" target="_blank" >link</a></strong></small></p>
-                <p class="bckgnd_media"><small><strong>Puedes ver el video de la presentación <a href="https://www.youtube.com/watch?v=lLWEXRAnQd0" target="_blank"> aqui </a></strong></small></p>
-                <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
-                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                    Etiam aliquam orci eu tellus.</p>
-                <figure class="Bckgnd_imageWrapper">
+                    </figure>
+                    <div class="bckgnd_wrap">
+                        <h3 class="bckgnd_title">Ingeniero de proyectos (freelance).</h3>
+                        <h6 class="bckgnd_subtitle">IT Engineer / Software Developer. </h6>
+                        <p class="bckgnd_period"><small><strong>Periodo: </strong>junio 5, 2020 - actualidad.</small></p>
+                        <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
+                            Pellentesque faucibus tellus ut eros posuere pretium. 
+                            Etiam aliquam orci eu tellus.</p>
+                    </div>
+                </article> 
+            </section>
+            <section id="baggage" class="baggage">
+                <article class="bckgnd">
+                    <figure class="Bckgnd_imageWrapper">
                         <img src="./images/Highlights/UpData.jpg" alt="Flujo_ETL" width="500"/>
-                </figure>
-            </article> 
-        </section>
-        <section id="baggage" class="baggage">
-            <article class="bckgnd">
-                <h3 class="bckgnd_project_title">Web Scraper / Consumo de la API de Mercado Libre (Mx y Br)</h3>
-                <h6 class="bckgnd_stack">Python para Extracción y Transformación, MySQL para carga </h6>
-                <p class="bckgnd_date"><small><strong>Fecha: </strong>Septiembre 09, 2020</small></p>
-                <p class="bckgnd_status"><small><strong>Puedes verificar el repositorio del proyecto en el siguiente <a href="" target="_blank" >link</a></strong></small></p>
-                <p class="bckgnd_media"><small><strong>Puedes ver el video de la presentación <a href="https://www.youtube.com/watch?v=lLWEXRAnQd0" target="_blank"> aqui </a></strong></small></p>
-                <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
-                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                    Etiam aliquam orci eu tellus.</p>
-                <figure class="Bckgnd_imageWrapper">
+                    </figure>
+                    <div class="bckgnd_wrap">
+                        <h3 class="bckgnd_title">Ingeniero de proyectos (freelance).</h3>
+                        <h6 class="bckgnd_subtitle">IT Engineer / Software Developer. </h6>
+                        <p class="bckgnd_period"><small><strong>Periodo: </strong>junio 5, 2020 - actualidad.</small></p>
+                        <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
+                            Pellentesque faucibus tellus ut eros posuere pretium. 
+                            Etiam aliquam orci eu tellus.</p>
+                    </div>
+                </article> 
+            </section>
+            <section id="baggage" class="baggage">
+                <article class="bckgnd">
+                    <figure class="Bckgnd_imageWrapper">
                         <img src="./images/Highlights/UpData.jpg" alt="Flujo_ETL" width="500"/>
-                </figure>
-            </article> 
-        </section>
-    </section>
-    <section class="Networking">
-        <h2>Mis redes sociales</h2>
-        <section id="smedia" class="social_media">
-            <article>
-                <h3>Linkedin</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
-                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                    Etiam aliquam orci eu tellus.</p> 
-                    <a>Ir a mi Linkedin</a>
-            </article> 
-        </section>
-        <section id="smedia" class="social_media">
-            <article>
-                <h3>Twitter</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
-                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                    Etiam aliquam orci eu tellus.</p> 
-                    <a>Ir a mi Linkedin</a>
-            </article> 
-        </section>
-        <section id="smedia" class="social_media">
-            <article>
-                <h3>Facebook</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
-                    Pellentesque faucibus tellus ut eros posuere pretium. 
-                    Etiam aliquam orci eu tellus.</p> 
-                    <a>Ir a mi Linkedin</a>
-            </article> 
-        </section>
+                    </figure>
+                    <div class="bckgnd_wrap">
+                        <h3 class="bckgnd_title">Ingeniero de proyectos (freelance).</h3>
+                        <h6 class="bckgnd_subtitle">IT Engineer / Software Developer. </h6>
+                        <p class="bckgnd_period"><small><strong>Periodo: </strong>junio 5, 2020 - actualidad.</small></p>
+                        <p class="bckgnd_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Quisque dui dui, fermentum sed orci at, bibendum sodales purus.
+                            Pellentesque faucibus tellus ut eros posuere pretium. 
+                            Etiam aliquam orci eu tellus.</p>
+                    </div>
+                </article> 
+            </section>
+        </div>
     </section>
     <section id="contact" class="contact">
-        <form action="/suscripcion/" class="form-email"> <!--Información de destino del formulario-->
-            <h3>¡Ve hasta el final!</h3>
-            <input type="text" placeholder="Déjame tu e-mail" id="email">
-            <button>Enviar</button>
-        </form>
+        <div class="Container">
+            <form action="/suscripcion/" class="form-email"> <!--Información de destino del formulario-->
+                <h3 class="Contact_title"> ¡Ve hasta el final!</h3>
+                <input type="text" placeholder="Déjame tu e-mail" id="email">
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com/meluiscruz" class="social_link TW"></a>
+                <a href="https://www.facebook.com/meluiscruzcruz/" class="social_link FB"></a>
+                <a href="https://github.com/Meluiscruz" class="social_link GH"></a>
+                <a href="https://www.linkedin.com/in/meluiscruz/" class="social_link LK"></a>
+                <a href="https://www.instagram.com/meluiscruz/" class="social_link IG"></a>
+            </div>
+        </div>
+        
     </section>
     <footer class="footer">
-        <div>
-            <p>©MELuisCruz. Todos los derechos reservados.</p>
-            <p>©MELuisCruz. All rights reserved.</p>
-        </div>
-        <div>
-            <p>Diseñado con &lt3 por MELuisCruz</p>
-            <p>Designed with &lt3 by MELuisCruz</p>
+        <div class="Container">
+            <div>
+                <p>MELuisCruz© 2020. Todos los derechos reservados.</p>
+                <p>MELuisCruz© 2020. All rights reserved.</p>
+            </div>
+            <div>
+                <p>Diseñado con &lt3 por MELuisCruz©</p>
+                <p>Designed with &lt3 by MELuisCruz©</p>
+            </div>
         </div>
     </footer>
 </body>

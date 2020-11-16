@@ -27,7 +27,7 @@ valores*/
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    /*background-color: #3e5f8a;*/
+    background-color: #3e5f8a;
 }
 
 ol,
@@ -78,7 +78,7 @@ h1 strong{
     justify-content: space-between;
     height:70px;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .main_menu { /* .menu hereda de .header */
@@ -95,7 +95,7 @@ h1 strong{
 }
 
 .header a{
-    color: #f8f32b;
+    color: #474b4e;
     text-decoration: none;
     height: inherit;
     display: flex;
@@ -106,20 +106,26 @@ h1 strong{
 .hero{
     padding:15px;
     height: 285px;
-    background-image: url('../images/hero/small-13.jpg');
+    /*background-image: url('../images/hero/small-13.jpg');*/
     background-color: #3e5f8a;
-    background-size: 285px 316px;
-    background-repeat: no-repeat;
+    /*background-size: 285px 316px;*/
+    /*background-repeat: no-repeat;*/
     background-position-x: right;
+    justify-content: space-between;
     color: #f8f32b;
     display: flex;
     align-items: center;
+}
+
+.hero_image{
+    object-fit: cover;
 }
 
 .Star_projects{
     background: #9c9c9c ;
     padding: 20px;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .Star_title{
@@ -181,6 +187,8 @@ h1 strong{
 .Curriculum{
     display: flex;
     background-color: #3e5f8a;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .CV_Title{
@@ -188,11 +196,6 @@ h1 strong{
     font-weight: bold;
     font-size: 24px;
     margin-left: 10px;
-    background-color: #3e5f8a;
-}
-
-.CV_title_bckgnd{
-    background-color: #3e5f8a;
 }
 
 .bckgnd{
@@ -230,7 +233,7 @@ h1 strong{
 .contact{
     background-color: #9c9c9c;
     color: whitesmoke;
-    height: 150px;
+    height: 125px;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -243,7 +246,7 @@ h1 strong{
 .Contact_title{
     color:#474b4e;
     font-style: bold;
-    padding: 20px 15px 2px;
+    padding: 5px 15px 2px;
     font-size: 27px;
     margin-bottom: 15px;
 }
@@ -317,6 +320,12 @@ h1 strong{
     padding: 10px;
 }
 
-.Container_header{
+.Container{
     border: 1px solid red;
-}
+    width: 1000px;
+    margin: 0, auto;
+    display:inherit;
+    justify-content: inherit;
+    height: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
