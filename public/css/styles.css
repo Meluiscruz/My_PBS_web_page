@@ -278,6 +278,13 @@ figure{
     margin: 0 10px;
 }/*Verificado*/
 
+.social_link.KG{
+    background-image: url('../images/icons/contact/kaggle-ar21.svg');
+    background-size: 50px 50px;
+    border-radius: 5px;
+    background-color: white;
+}/*Verificado*/
+
 .social_link.TW{
     background-image: url('../images/icons/contact/003-gorjeo.svg');
     background-size: 50px 50px;
