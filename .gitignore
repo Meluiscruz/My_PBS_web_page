@@ -1,2 +1,10 @@
-#Dir of images
-images/
+#Directories:
+
+public/images/
+./.firebase/
+./My_icons/
+
+#Files:
+
+./.firebaserc
+./firebase.json
