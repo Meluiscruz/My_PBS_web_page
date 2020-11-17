@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'Montserrat','Roboto' sans-serif;
+    font-family: 'Montserrat','Roboto', sans-serif;
     font-weight: normal;
     /*text-transform: lowercase*/
     /*text-decoration: dotted;*/
@@ -58,7 +58,7 @@ h1 strong{
 h2 {
     color: #474b4e;
     /*text-transform: uppercase;*/
-    font-family: 'Montserrat','Roboto' sans-serif;
+    font-family: 'Montserrat','Roboto', sans-serif;
     font-weight: bold;
     font-size: 24px;
     /*margin-bottom: 40px;*/
@@ -80,6 +80,11 @@ h2 {
 .portfolio{
     background: #9c9c9c ;
     /*padding: 20px;*/
+} /*Verificado*/
+
+.portfolio_title{
+    padding: 15px 0px;
+    margin-bottom: 10px;
 } /*Verificado*/
 
 .project{
@@ -106,7 +111,7 @@ h2 {
 }/*Verificado*/
 
 .project strong{
-    font-family: 'Montserrat','Roboto' sans-serif;
+    font-family: 'Montserrat','Roboto', sans-serif;
 }/*Verificado*/
 
 .project_title{
@@ -308,6 +313,13 @@ figure{
     background-color: white;
 }/*Verificado*/
 
+.social_link.GC{
+    background-image: url('../images/icons/contact/grabcad-vector-logo.svg');
+    background-size: 50px 50px;
+    border-radius: 15px;
+    background-color: white;
+}/*Verificado*/
+
 .form-email input{
     border-color: #3e5f8a;
     border-style: solid;
@@ -336,3 +348,8 @@ figure{
     align-items: inherit;
     flex-wrap: inherit;
 }/*Verificado*/
+
+.event_subtitle a {
+    color: #f8f32b;
+
+}
