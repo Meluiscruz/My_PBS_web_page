@@ -153,7 +153,7 @@ figure{
 }/*Verificado*/
 
 .header a{
-    color: #474b4e;
+    color: #f8f32b;
     text-decoration: none;
     height: inherit;
     display: flex;
@@ -262,7 +262,7 @@ figure{
 }*/
 
 .Contact_title{
-    color:#474b4e;
+    color: #f8f32b;
     font-style: bold;
     padding: 5px 15px 2px;
     font-size: 27px;
@@ -274,27 +274,27 @@ figure{
     width: 50px;
     height: 50px;
     background-size: 50px 50px;
-    margin: 0 10px;
+    margin: 0 7px;
 }/*Verificado*/
 
 .social_link.KG{
     background-image: url('../images/icons/contact/kaggle-ar21.svg');
     background-size: 50px 50px;
-    border-radius: 5px;
+    border-radius: 9px;
     background-color: white;
 }/*Verificado*/
 
 .social_link.TW{
     background-image: url('../images/icons/contact/003-gorjeo.svg');
     background-size: 50px 50px;
-    border-radius: 5px;
+    border-radius: 9px;
     background-color: white;
 }/*Verificado*/
 
 .social_link.FB{
     background-image: url('../images/icons/contact/001-facebook.svg');
     background-size: 50px 50px;
-    border-radius: 10px;
+    border-radius: 9px;
     background-color: white;
 }/*Verificado*/
 
@@ -308,7 +308,7 @@ figure{
 .social_link.LK{
     background-image: url('../images/icons/contact/004-linkedin.svg');
     background-size: 50px 50px;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: white;
 }/*Verificado*/
 
@@ -321,6 +321,13 @@ figure{
 
 .social_link.GC{
     background-image: url('../images/icons/contact/grabcad-vector-logo.svg');
+    background-size: 50px 50px;
+    border-radius: 15px;
+    background-color: white;
+}/*Verificado*/
+
+.social_link.MD{
+    background-image: url('../images/icons/contact/medium.svg');
     background-size: 50px 50px;
     border-radius: 15px;
     background-color: white;
