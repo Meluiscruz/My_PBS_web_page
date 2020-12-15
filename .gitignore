@@ -2,6 +2,7 @@
 
 ./.firebase/
 ./My_icons/
+.public/debug.log
 
 #Files:
 
