@@ -4,10 +4,6 @@
 
 ![](https://img.shields.io/github/stars/Meluiscruz/My_PBS_web_page.svg) ![](https://img.shields.io/github/forks/Meluiscruz/My_PBS_web_page.svg) ![](https://img.shields.io/github/issues/Meluiscruz/My_PBS_web_page.svg)![](https://img.shields.io/github/tag/Meluiscruz/My_PBS_web_page.svg)
 
-[TOCM]
-
-[TOC]
-
 # Scope of the project.
 
 In this repo, you can find the HTML and CSS code that was required to lift my web page. Due to this was my first project as a frontend developer, you may find some details and lines that could be improved.
